@@ -19,12 +19,4 @@ public class Commande {
     }
 
 
-    public void eneleverAllumettes(TextField t,int nbALlumettes){
-        int n1 =  Integer.parseInt(t.getText());
-
-        if(1<=n1 && n1<=3){
-            nbALlumettes -= n1;
-
-        }
-    }
 }
